@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.bg-image {
+  background-image: url(assets/bg-home-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width : 1024px) {
+  .bg-image {
+    background-position: 65%;
+  }
+  header{
+    backdrop-filter: blur(15px);
+  }
+}
+
+.bg-blur {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.692) 25%, rgba(0, 0, 0, 0));
+}
+
+.bg-blur-white {
+  background-color: rgba(205, 204, 204, 0.537);
+  /* Couleur blanche semi-transparente */
+  backdrop-filter: blur(10px);
+  /* Appliquer le flou */
+  -webkit-backdrop-filter: blur(10px);
+}
