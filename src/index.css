@@ -35,7 +35,7 @@ code {
 }
 
 .bg-blur {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.692) 25%, rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.692) 25%, rgba(0, 0, 0, 0)); 
 }
 
 .bg-blur-white {
@@ -45,6 +45,24 @@ code {
   /* Appliquer le flou */
   -webkit-backdrop-filter: blur(10px);
 }
+
+.animation-home-page {
+  animation: HomePage 1.8s ease;
+}
+
+@keyframes HomePage {
+  from {
+    opacity: 0;
+    margin-bottom: -20vh;
+  }
+
+  to {
+    opacity: 1;
+    margin-bottom: 0vh;
+  }
+}
+
+
 
 .card-1-page1,
 .card-2-page1,
@@ -60,11 +78,6 @@ code {
   background-image: url(assets/personnele_trainner.png);
 }
 
-@media (max-width :1023px) {
-  .card-2-page1 {
-    background-position: 50%;
-  }
-}
 .card-2-page1 {
   background-image: url(assets/Outdoor-Classes.jpg);
 }

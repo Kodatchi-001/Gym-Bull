@@ -5,7 +5,7 @@ export default function HomPage() {
             <section className="w-full h-screen bg-image">
                 <div className="w-full h-full flex justify-center lg:justify-start flex-wrap bg-blur">
                     <Header />
-                    <div className='w-5/6 sm:w-4/5 md:w-3/5 lg:w-3/5 xl:w-[46%] h-[55%] lg:ml-14 xl:ml-24 flex justify-center lg:justify-start flex-wrap'>
+                    <div className='w-5/6 sm:w-4/5 md:w-3/5 lg:w-3/5 xl:w-[46%] h-[55%] lg:ml-14 xl:ml-24 flex justify-center lg:justify-start flex-wrap animation-home-page'>
                         <div className='w-full h-[75%] flex justify-center lg:justify-start flex-wrap'>
                             <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center lg:text-start text-white'>
                                 YOUR FITNESS JOURNEY BEGINS HERE
