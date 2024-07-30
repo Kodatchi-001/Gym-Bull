@@ -16,9 +16,9 @@ export default function HomPage() {
                             </p>
                         </div>
                         <div>
-                            <h1 className='pl-4 pr-1 py-1 rounded-lg flex items-center gap-3 text-black bg-[#e4c030]'>
+                            <h1 className='pl-4 pr-1 py-1 rounded-lg flex items-center gap-3 text-white bg-orange-500'>
                                 Explore More 
-                                <i class='bx bx-right-arrow-alt text-2xl px-2 py-1 rounded-lg bg-white'></i>
+                                <i class='bx bx-right-arrow-alt text-2xl px-2 py-1 rounded-lg text-orange-500 bg-white'></i>
                             </h1>
                         </div>
                     </div>

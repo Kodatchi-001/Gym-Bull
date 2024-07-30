@@ -28,7 +28,8 @@ code {
   .bg-image {
     background-position: 65%;
   }
-  header{
+
+  header {
     backdrop-filter: blur(15px);
   }
 }
@@ -43,4 +44,35 @@ code {
   backdrop-filter: blur(10px);
   /* Appliquer le flou */
   -webkit-backdrop-filter: blur(10px);
+}
+
+.card-1-page1,
+.card-2-page1,
+.card-2-page1,
+.card-3-page1,
+.card-4-page1 {
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 20px;
+}
+
+.card-1-page1 {
+  background-image: url(assets/personnele_trainner.png);
+}
+
+@media (max-width :1023px) {
+  .card-2-page1 {
+    background-position: 50%;
+  }
+}
+.card-2-page1 {
+  background-image: url(assets/Outdoor-Classes.jpg);
+}
+
+.card-3-page1 {
+  background-image: url(assets/digital-cotch.jpg);
+}
+
+.card-4-page1 {
+  background-image: url(assets/group.jpg);
 }

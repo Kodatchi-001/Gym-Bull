@@ -17,7 +17,7 @@ export default function Header() {
                     </div>
                     <div className="w-1/4 h-full flex justify-end gap-3 items-center">
                         <h1 className='text-white hidden lg:flex'>Menu</h1>
-                        <i class='bx bx-align-right px-2 py-1 text-xl rounded-lg cursor-pointer hidden lg:flex text-black bg-white'></i>
+                        <i class='bx bx-align-right px-2 py-1 text-xl rounded-lg cursor-pointer hidden lg:flex text-white bg-orange-500'></i>
                     </div>
                 </div>
             </header>
