@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,6 +19,7 @@ code {
   font-family: 'Satoshi', sans-serif;
 }
 
+/*HomePage*/
 .bg-image {
   background-image: url(assets/bg-home-page.jpg);
   background-repeat: no-repeat;
@@ -35,7 +37,7 @@ code {
 }
 
 .bg-blur {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.692) 25%, rgba(0, 0, 0, 0)); 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.692) 25%, rgba(0, 0, 0, 0));
 }
 
 .bg-blur-white {
@@ -55,15 +57,19 @@ code {
     opacity: 0;
     margin-bottom: -20vh;
   }
-
+  
   to {
     opacity: 1;
     margin-bottom: 0vh;
   }
 }
 
-
-
+/*Page-1*/
+.Font-Bold-Tittles{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .card-1-page1,
 .card-2-page1,
 .card-2-page1,
@@ -88,4 +94,19 @@ code {
 
 .card-4-page1 {
   background-image: url(assets/group.jpg);
+}
+
+/*Page-1*/
+.card-1-page2,
+.card-2-page2 {
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card-1-page2 {
+  background-image: url(assets/coaches-2.png);
+}
+
+.card-2-page2 {
+  background-image: url(assets/coaches.png);
 }

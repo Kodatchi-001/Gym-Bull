@@ -5,7 +5,7 @@ export default function Page_1() {
             <div className="w-[85%] lg:w-[90%] h-full lg:h-5/6 flex flex-wrap gap-8 lg:gap-0">
                 <div className="w-full h-1/5 flex flex-col justify-center items-center lg:items-start gap-2">
                     <h1 className="text-lg lg:text-2xl">CLASSES DESIGNED</h1>
-                    <h1 className="text-5xl lg:text-6xl">FOR YOU</h1>
+                    <h1 className="text-5xl lg:text-6xl Font-Bold-Tittles">FOR YOU</h1>
                 </div>
                 <div className="w-full h-4/5 flex justify-evenly items-center flex-wrap gap-5 lg:gap-0">
                     <div className="w-full sm:w-[45%] lg:w-[20%] h-[65vh] lg:h-5/6 flex flex-wrap">
