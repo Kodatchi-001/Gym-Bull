@@ -2,7 +2,7 @@ import { cards_page_4 } from '../utils/Logic.js';
 
 export default function Page_5() {
     return <>
-        <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0">
+        <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0" id='Page-5'>
             <div className="w-[85%] lg:w-[95%] xl:w-[85%] h-[90%] flex flex-wrap gap-5 lg:gap-0">
                 <div className="w-full h-[25%] flex flex-col justify-center items-center lg:items-start gap-2">
                     <h1 className="w-full text-center lg:text-start text-2xl">
@@ -103,10 +103,10 @@ export default function Page_5() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full h-[15%] flex justify-center items-center gap-5">
-                            <i className='bx bx-chevron-left text-4xl p-2 rounded-full cursor-pointer bg-black text-white'
+                        <div className="w-full h-[15%] flex justify-center items-center gap-10">
+                            <i className='bx bx-chevron-left text-5xl cursor-pointer text-black'
                                 onClick={() => cards_page_4(-1)}></i>
-                            <i className='bx bx-chevron-right text-4xl p-2 rounded-full cursor-pointer bg-black text-white'
+                            <i className='bx bx-chevron-right text-5xl cursor-pointer text-black'
                                 onClick={() => cards_page_4(1)}></i>
 
                         </div>

@@ -6,7 +6,7 @@ export default function Page_2() {
                     <div className="w-5/6 lg:w-[25%] h-5/6 rounded-3xl card-1-page2 hidden lg:flex bg-orange-500">
 
                     </div>
-                    <div className="w-full sm:w-4/5 lg:w-[65%] h-5/6 rounded-3xl card-2-page2">
+                    <div className="w-full sm:w-4/5 lg:w-[65%] h-[75%] sm:h-5/6 rounded-3xl card-2-page2">
 
                     </div>
                 </div>

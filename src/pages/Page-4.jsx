@@ -1,6 +1,6 @@
 export default function Page_4() {
     return <>
-        <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0" id="Page-4">
+        <section className="w-full lg:h-[90vh] flex justify-center items-center mt-10 lg:mt-0" id="Page-4">
             <div className="w-full lg:w-[95%] xl:w-[85%] h-[95%] flex justify-center flex-wrap lg:rounded-3xl py-5 lg:py-0 lg:p-10 gap-5 lg:gap-0 bg-orange-500">
                 <div className="w-full lg:w-[95%] h-[20%] flex flex-wrap-reverse">
                     <div className="w-full lg:w-1/2 h-full flex items-center">
@@ -20,7 +20,7 @@ export default function Page_4() {
                 </div>
                 <div className="w-[90%] lg:w-full h-[60%] flex justify-center lg:justify-around items-center flex-wrap gap-5 lg:gap-0">
                     {/*Card-1*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] lg:h-full xl:h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">
@@ -48,7 +48,7 @@ export default function Page_4() {
                         </div>
                     </div>
                     {/*Card-2*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] lg:h-full xl:h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">
@@ -76,7 +76,7 @@ export default function Page_4() {
                         </div>
                     </div>
                     {/*Card-3*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] lg:h-full xl:h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">

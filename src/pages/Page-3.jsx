@@ -17,12 +17,12 @@ export default function Page_3() {
                 </div>
                 <div className="w-full h-2/3 flex justify-center items-center flex-wrap lg:flex-nowrap gap-4 lg:gap-0 information">
                     <i class='bx bx-bowl-hot text-6xl lg:text-8xl p-8 lg:p-10 rounded-full' id="icone-1"></i>
-                    <h1 className="text-5xl hidden lg:flex">{lines}</h1>
+                    <h1 className="lg:text-2xl xl:text-5xl hidden lg:flex">{lines}</h1>
                     <i class='bx bx-dumbbell text-6xl lg:text-8xl p-8 lg:p-10 rounded-full' id="icone-2"></i>
-                    <h1 className="text-5xl hidden lg:flex">{lines}</h1>
+                    <h1 className="lg:text-2xl xl:text-5xl hidden lg:flex">{lines}</h1>
                     <i class='bx bx-infinite text-6xl lg:text-8xl p-8 lg:p-10 rounded-full flex sm:hidden' id="icone-4"></i>
                     <i class='bx bx-alarm-snooze text-6xl lg:text-8xl p-8 lg:p-10 rounded-full hidden sm:flex' id="icone-3"></i>
-                    <h1 className="text-5xl hidden lg:flex">{lines}</h1>
+                    <h1 className="lg:text-2xl xl:text-5xl hidden lg:flex">{lines}</h1>
                     <i class='bx bx-alarm-snooze text-6xl lg:text-8xl p-8 lg:p-10 rounded-full flex sm:hidden' id="icone-3"></i>
                     <i class='bx bx-infinite text-6xl lg:text-8xl p-8 lg:p-10 rounded-full hidden sm:flex' id="icone-4"></i>
                 </div>

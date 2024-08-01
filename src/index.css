@@ -21,6 +21,12 @@ code {
   font-family: 'Satoshi', sans-serif;
 }
 
+/*Header*/
+
+header , header div{
+  transition: 0.8s ease;
+}
+
 /*HomePage*/
 .bg-image {
   background-image: url(assets/bg-home-page.jpg);
@@ -28,13 +34,13 @@ code {
   background-size: cover;
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 1023px) {
   .bg-image {
     background-position: 65%;
   }
 
   header {
-    backdrop-filter: blur(15px);
+    background-color: black;
   }
 }
 
