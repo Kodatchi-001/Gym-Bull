@@ -1,5 +1,4 @@
 import Logo from '../assets/logo.png'
-import { navbar_responsiv } from '../utils/Logic.js';
 export default function Header() {
     return (
         <>
@@ -21,9 +20,7 @@ export default function Header() {
                         <i class='bx bx-align-right px-2 py-1 text-xl rounded-lg cursor-pointer hidden lg:flex text-white bg-orange-500'></i>
                     </div>
                     <div className='w-1/2 h-full flex justify-end items-center lg:hidden'>
-                        <i class='bx bx-menu-alt-right text-2xl text-orange-500' onClick={() => {
-                            navbar_responsiv()
-                        }}></i>
+                        <i class='bx bx-menu-alt-right text-3xl text-orange-500'></i>
                     </div>
                 </div>
                 <ul className="w-full h-[55%] flex justify-around items-center rounded-xl text-orange-500">
