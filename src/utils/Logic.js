@@ -3,16 +3,16 @@
 var header_div= document.querySelector('header div:first-child');
 var header = document.querySelector('header');
 
-export default function header_links() {
-    const links = document.querySelectorAll('header ul li a');
-    links.forEach(element => {
-        element.addEventListener('click', function () {
-            header.style.height = ''
-            header_div.style.height = ''
-        })
-    });
-}
-header_links();
+// export default function header_links() {
+//     const links = document.querySelectorAll('header ul li a');
+//     links.forEach(element => {
+//         element.addEventListener('click', function () {
+//             header.style.height = ''
+//             header_div.style.height = ''
+//         })
+//     });
+// }
+// header_links();
 
 //navbar-responsiv
 export function navbar_responsiv() {
