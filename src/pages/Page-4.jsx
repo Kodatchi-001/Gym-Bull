@@ -20,7 +20,7 @@ export default function Page_4() {
                 </div>
                 <div className="w-[90%] lg:w-full h-[60%] flex justify-center lg:justify-around items-center flex-wrap gap-5 lg:gap-0">
                     {/*Card-1*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">
@@ -48,7 +48,7 @@ export default function Page_4() {
                         </div>
                     </div>
                     {/*Card-2*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">
@@ -76,7 +76,7 @@ export default function Page_4() {
                         </div>
                     </div>
                     {/*Card-3*/}
-                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white text-white cursor-pointer card-page-4">
+                    <div className="w-full sm:w-[45%] lg:w-[30%] xl:w-[28%] h-[90%] flex flex-wrap px-7 py-4 border-4 rounded-3xl border-white lg:text-white cursor-pointer card-page-4">
                         <div className="w-full h-[45%] flex flex-wrap items-center gap-3">
                             <div>
                                 <div className="p-2 flex justify-center items-center rounded-full border-4 border-white bg-blur-white-2">
