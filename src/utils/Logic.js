@@ -1,30 +1,33 @@
-// //header links
-
-var header_div= document.querySelector('header div:first-child');
+// Ensure the elements exist before accessing their properties
+var header_div = document.querySelector('header div:first-child');
 var header = document.querySelector('header');
 
-// export default function header_links() {
-//     const links = document.querySelectorAll('header ul li a');
-//     links.forEach(element => {
-//         element.addEventListener('click', function () {
-//             header.style.height = ''
-//             header_div.style.height = ''
-//         })
-//     });
-// }
-// header_links();
+export default function header_links() {
+    const links = document.querySelectorAll('header ul li a');
+    links.forEach(element => {
+        element.addEventListener('click', function () {
+            if (header && header_div) {
+                header.style.height = '';
+                header_div.style.height = '';
+            }
+        });
+    });
+}
+header_links();
 
-//navbar-responsiv
 export function navbar_responsiv() {
     var height_header = '15vh';
     
-    if (header.style.height == height_header) {
-        header.style.height = ''
-        header_div.style.height = ''
-    }
-    else{
-        header.style.height = height_header
-        header_div.style.height = '50%'
+    if (header && header_div) {
+        if (header.style.height === height_header) {
+            header.style.height = '';
+            header_div.style.height = '';
+        } else {
+            header.style.height = height_header;
+            header_div.style.height = '50%';
+        }
+    } else {
+        console.error('Header or header div not found');
     }
 }
 
