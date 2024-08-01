@@ -8,6 +8,7 @@ import Page_1 from './pages/Page-1';
 import Page_2 from './pages/Page-2';
 import Page_3 from './pages/Page-3';
 import Page_4 from './pages/Page-4';
+import Page_5 from './pages/Page-5';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     <Page_2/>
     <Page_3/>
     <Page_4/>
+    <Page_5/>
   </React.StrictMode>
 );
 

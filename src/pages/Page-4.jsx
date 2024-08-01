@@ -1,7 +1,7 @@
 export default function Page_4() {
     return <>
         <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0" id="Page-4">
-            <div className="w-full lg:w-[95%] xl:w-[85%] h-[95%] flex justify-center flex-wrap rounded-3xl py-5 lg:py-0 lg:p-10 gap-5 lg:gap-0 bg-orange-500">
+            <div className="w-full lg:w-[95%] xl:w-[85%] h-[95%] flex justify-center flex-wrap lg:rounded-3xl py-5 lg:py-0 lg:p-10 gap-5 lg:gap-0 bg-orange-500">
                 <div className="w-full lg:w-[95%] h-[20%] flex flex-wrap-reverse">
                     <div className="w-full lg:w-1/2 h-full flex items-center">
                         <a href="#Page-5" className="px-4 py-2 pl-5 lg:flex items-center gap-14 rounded-lg bg-white hidden">

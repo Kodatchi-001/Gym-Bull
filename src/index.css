@@ -192,7 +192,7 @@ code {
 
 @media (max-width : 1023px) {
 
-  .card-page-4{
+  .card-page-4 {
     background-color: white;
     color: black;
 
@@ -200,6 +200,7 @@ code {
       background-color: rgba(205, 204, 204, 0);
       border: 4px solid #f97316;
     }
+
     .bg-blur-white-2 div {
       opacity: 1;
     }
@@ -223,4 +224,9 @@ code {
     }
   }
 
+}
+
+/*Page-5*/
+.cards {
+  transition: 0.8s ease;
 }
