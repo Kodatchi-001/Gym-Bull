@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <header className="w-full h-[9vh] lg:h-[12vh] flex justify-center flex-wrap overflow-hidden">
-                <div className="w-[90%] lg:w-[95%] xl:w-[90%] h-full flex justify-between">
+                <div className="w-[90%] lg:w-[95%] xl:w-[90%] h-full flex justify-between header_links">
                     <div className="w-1/4 h-full lg:flex items-center hidden">
                         <ul className="w-full h-[55%] flex justify-evenly items-center rounded-xl text-white bg-blur-white">
                             <li><a href="#HomePage">Home</a></li>

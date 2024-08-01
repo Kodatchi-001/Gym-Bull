@@ -1,23 +1,9 @@
 // Ensure the elements exist before accessing their properties
-var header_div = document.querySelector('header div:first-child');
+var header_div = document.querySelector('.header_links');
 var header = document.querySelector('header');
-
-export default function header_links() {
-    const links = document.querySelectorAll('header ul li a');
-    links.forEach(element => {
-        element.addEventListener('click', function () {
-            if (header && header_div) {
-                header.style.height = '';
-                header_div.style.height = '';
-            }
-        });
-    });
-}
-header_links();
-
 export function navbar_responsiv() {
     var height_header = '15vh';
-    
+
     if (header && header_div) {
         if (header.style.height === height_header) {
             header.style.height = '';
