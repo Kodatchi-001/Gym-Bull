@@ -17,6 +17,7 @@ code {
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   font-family: 'Satoshi', sans-serif;
 }
 
@@ -172,4 +173,54 @@ code {
 
 #icone-4 {
   animation-delay: 6s;
+}
+
+/*Page-4*/
+.bg-blur-white-2 {
+  background-color: rgba(205, 204, 204, 0.537);
+  /* Couleur blanche semi-transparente */
+  backdrop-filter: blur(10px);
+  /* Appliquer le flou */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.card-page-4,
+.bg-blur-white-2,
+.bg-blur-white-2 div {
+  transition: 0.8s ease;
+}
+
+@media (max-width : 1023px) {
+
+  .card-page-4{
+    background-color: white;
+    color: black;
+
+    .bg-blur-white-2 {
+      background-color: rgba(205, 204, 204, 0);
+      border: 4px solid #f97316;
+    }
+    .bg-blur-white-2 div {
+      opacity: 1;
+    }
+  }
+}
+
+
+@media (min-width : 1024px) {
+  .card-page-4:hover {
+    background-color: white;
+    color: black;
+    margin-top: -10vh;
+
+    .bg-blur-white-2 {
+      background-color: rgba(205, 204, 204, 0);
+      border: 4px solid #f97316;
+    }
+
+    .bg-blur-white-2 div {
+      opacity: 1;
+    }
+  }
+
 }

@@ -6,9 +6,9 @@ export default function Header() {
                 <div className="w-[90%] lg:w-[95%] xl:w-[90%] h-full flex justify-between">
                     <div className="w-1/4 h-full lg:flex items-center hidden">
                         <ul className="w-full h-[55%] flex justify-evenly items-center rounded-xl text-white bg-blur-white">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Memrship</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="#HomePage">Home</a></li>
+                            <li><a href="#Page-2">About</a></li>
+                            <li><a href="#Page-4">Memrship</a></li>
                             <li><a href="">Blog</a></li>
                         </ul>
                     </div>

@@ -1,6 +1,6 @@
 export default function Page_2() {
     return <>
-        <section className="w-full lg:h-[90vh] flex justify-center items-center mt-10 lg:mt-0">
+        <section className="w-full lg:h-[90vh] flex justify-center items-center mt-10 lg:mt-0" id="Page-2">
             <div className="w-[85%] lg:w-5/6 h-[70%] flex justify-around items-center flex-wrap-reverse lg:flex-nowrap lg:gap-20">
                 <div className="w-full lg:w-[50%] h-[70vh] lg:h-full flex justify-center items-center flex-wrap-reverse gap-5">
                     <div className="w-5/6 lg:w-[25%] h-5/6 rounded-3xl card-1-page2 hidden lg:flex bg-orange-500">
