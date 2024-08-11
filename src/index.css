@@ -85,8 +85,14 @@ header , header div{
 .card-3-page1,
 .card-4-page1 {
   background-size: cover;
-  background-position: bottom;
   border-radius: 20px;
+}
+
+.card-2-page1,
+.card-2-page1,
+.card-3-page1,
+.card-4-page1 {
+  background-position: bottom;
 }
 
 .card-1-page1 {
