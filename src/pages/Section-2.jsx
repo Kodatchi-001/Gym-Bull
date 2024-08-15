@@ -1,4 +1,4 @@
-export default function Page_2() {
+export default function Section_2() {
     return <>
         <section className="w-full lg:h-[90vh] flex justify-center items-center mt-10 lg:mt-0" id="Page-2">
             <div className="w-[85%] lg:w-5/6 h-[70%] flex justify-around items-center flex-wrap-reverse lg:flex-nowrap lg:gap-20">

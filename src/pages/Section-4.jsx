@@ -1,4 +1,4 @@
-export default function Page_4() {
+export default function Section_4() {
     return <>
         <section className="w-full lg:h-[90vh] flex justify-center items-center mt-10 lg:mt-0" id="Page-4">
             <div className="w-full lg:w-[95%] xl:w-[85%] h-[95%] flex justify-center flex-wrap lg:rounded-3xl py-5 lg:py-0 lg:p-10 gap-5 lg:gap-0 bg-orange-500">

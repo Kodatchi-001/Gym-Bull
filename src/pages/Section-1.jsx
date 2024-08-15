@@ -1,4 +1,4 @@
-export default function Page_1() {
+export default function Section_1() {
 
     return <>
         <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0 test">

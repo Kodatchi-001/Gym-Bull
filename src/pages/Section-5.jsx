@@ -1,6 +1,6 @@
 import { cards_page_4 } from '../utils/Logic.js';
 
-export default function Page_5() {
+export default function Section_5() {
     return <>
         <section className="w-full lg:h-screen flex justify-center items-center mt-10 lg:mt-0" id='Page-5'>
             <div className="w-[85%] lg:w-[95%] xl:w-[85%] h-[90%] flex flex-wrap gap-5 lg:gap-0">

@@ -1,4 +1,4 @@
-export default function Page_3() {
+export default function Section_3() {
     const lines = '--------'
     return <>
         <section className="w-full lg:h-[80vh] flex justify-center items-center mt-10 lg:mt-0">
