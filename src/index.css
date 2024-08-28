@@ -97,18 +97,22 @@ header , header div{
 
 .card-1-page1 {
   background-image: url(assets/personnele_trainner.png);
+  background-repeat: no-repeat;
 }
 
 .card-2-page1 {
   background-image: url(assets/Outdoor-Classes.jpg);
+  background-repeat: no-repeat;
 }
 
 .card-3-page1 {
   background-image: url(assets/digital-cotch.jpg);
+  background-repeat: no-repeat;
 }
 
 .card-4-page1 {
   background-image: url(assets/group.jpg);
+  background-repeat: no-repeat;
 }
 
 /*Page-1*/
@@ -120,10 +124,12 @@ header , header div{
 
 .card-1-page2 {
   background-image: url(assets/coaches-2.png);
+  background-repeat: no-repeat;
 }
 
 .card-2-page2 {
   background-image: url(assets/coaches.png);
+  background-repeat: no-repeat;
 }
 
 /* Apply animation to all icons */
